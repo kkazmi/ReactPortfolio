@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Kashif Kazmi Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate software developer focused on designing and building scalable, sustainable end-to-end solutions that solve real-world problems and deliver meaningful impact.",
   og: {
     title: "Kashif Kazmi Portfolio",
     type: "website",
@@ -291,10 +291,17 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "CorelDraw",
+          fontAwesomeClassname: "simple-icons:coreldraw",
           style: {
-            color: "#FF2BC2",
+            color: "#1aac46",
+          },
+        },
+         {
+          skillName: "Adobe Photoshop CC",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
+          style: {
+            color: "#31A8FF",
           },
         },
         {
@@ -311,13 +318,48 @@ const skills = {
             color: "#FF7C00",
           },
         },
+        
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
           style: {
-            color: "#000000",
+            color: "#FF2BC2",
           },
         },
+        
+      ],
+    },
+     {
+      title: "UI/UX Design",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Creating the flow of application functionalities to optimize user experience",
+      ],
+      softwareSkills: [
+        {
+          skillName: "OpenShot",
+          fontAwesomeClassname: "simple-icons:davinciresolve",
+          style: {
+            color: "#1aac46",
+          },
+        },
+         {
+          skillName: "Adobe Premiere Pro",
+          fontAwesomeClassname: "simple-icons:adobepremierepro",
+          style: {
+            color: "#0a6aaf",
+          },
+        },
+        {
+          skillName: "Flimora",
+          fontAwesomeClassname: "simple-icons:video",
+          style: {
+            color: "#1aac46",
+          },
+        },
+        
       ],
     },
   ],
@@ -332,23 +374,23 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/u/kashif//",
     },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/layman_brother",
+    // },
     {
       siteName: "Codechef",
       iconifyClassname: "simple-icons:codechef",
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/kkazmi",
     },
     {
       siteName: "Codeforces",
@@ -356,23 +398,23 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
+      profileLink: "https://codeforces.com/profile/kashif",
     },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
+    // },
     {
       siteName: "Kaggle",
       iconifyClassname: "simple-icons:kaggle",
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/kashif",
     },
   ],
 };
@@ -380,30 +422,56 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "Jamia Hamdard University, New Delhi",
+      subtitle: "Master in Computer Application ( M.C.A.)",
+      logo_path: "jamiyaHamdard.png",
+      alt_name: "Jamia Hamdard University, New Delhi",
+      duration: "2012 - 2015",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-      ],
-      website_link: "http://iiitk.ac.in",
+        "📙 I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "📙 Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "📙 I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from Harsh Basin Department of Computer Science Assistant Professor for consistently best performance in academics.",      ],
+      website_link: "https://www.jamiahamdard.ac.in/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "Hemvati Nandan Bahuguna Garhwal University (HNBGU), Srinagar",
+      subtitle: "Bachelor of Computer Applications ( B.C.A.)",
+      logo_path: "HNBG.png",
+      alt_name: "Hemvati Nandan Bahuguna Garhwal University (HNBGU), Srinagar",
+      duration: "2008 - 2011",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "📘 I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+        "📘 Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
+        "📘 During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://hnbgu.ac.in/",
+    },   
+     {
+      title: "Board of High School and Intermediate Education, Uttar Pradesh",
+      subtitle: "Senior Secondary School (XII)",
+      logo_path: "UPB12.png",
+      alt_name: "Board of High School and Intermediate Education, Uttar Pradesh",
+      duration: "2007 - 2008",
+      descriptions: [
+        "📗 I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "📗 Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "📗 I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        
+      ],
+      website_link: "https://www.davcollegemzn.org/",
+    },
+    {
+      title: "Board of High School and Intermediate Education, Uttar Pradesh",
+      subtitle: "High School (X)",
+      logo_path: "Board10.png",
+      alt_name: "Board of High School and Intermediate Education, Uttar Pradesh",
+      duration: "2006 - 2007",
+      descriptions: [
+        "📚 I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+        "📚 Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
+        "📚 During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+      ],
+      website_link: "https://hnbgu.ac.in/",
     },
   ],
 };
