@@ -100,6 +100,14 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-discord", // Reference https://fontawesome.com/icons/pinterest?style=brands
     backgroundColor: "#e7700d", // Reference https://simpleicons.org/?q=pinterest
   },
+  {
+    name: "PHP Portfolio",
+    link: "https://kashifkazmi.great-site.net/",
+    fontAwesomeIcon: "fa-website", // Reference https://fontawesome.com/icons/pinterest?style=brands
+    backgroundColor: "#08940f", // Reference https://simpleicons.org/?q=pinterest
+  },
+  
+
   
 ];
 
