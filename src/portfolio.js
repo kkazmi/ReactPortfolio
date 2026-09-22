@@ -830,24 +830,24 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+      "I’m always open to discussing new projects, creative ideas, or collaboration opportunities. If you have an idea, a business requirement, or need help developing a web solution, feel free to reach out. I enjoy connecting with people, understanding their goals, and working together to build innovative and impactful digital experiences. Let’s connect and create something great together.",
+    link: "https://kashifkazmi.great-site.net/contact-us",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "18/3 Nafees road, Jamia Nagar, New Delhi 110025",
+    locality: "Delhi",
+    country: "India",
+    region: "Jamia Nagar, ",
+    postalCode: "110025",
+    streetAddress: "New Delhi ",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/Bfj1sm4Kay4iwrfY7",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Mobile No.",
+    subtitle: "+91 8395000092",
   },
 };
 
