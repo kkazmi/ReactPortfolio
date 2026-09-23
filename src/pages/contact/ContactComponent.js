@@ -14,7 +14,7 @@ const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
-
+const emailSection = contactPageData.emailSection;
 class Contact extends Component {
   render() {
     const theme = this.props.theme;
@@ -68,7 +68,7 @@ class Contact extends Component {
                 </p>
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Visit My Blogsite"
+                    text="Visit My Contactsite"
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
@@ -98,13 +98,13 @@ class Contact extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {addressSection["title"]}
+                  {emailSection["title"]}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {addressSection["subtitle"]}
+                  {emailSection["subtitle"]}
                 </p>
                 <h1
                   className="address-heading-text"
@@ -118,6 +118,19 @@ class Contact extends Component {
                 >
                   {phoneSection["subtitle"]}
                 </p>
+                 <h1
+                  className="address-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  {addressSection["title"]}
+                </h1>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {addressSection["subtitle"]}
+                </p>
+
                 <div className="address-btn-div">
                   <Button
                     text="Visit on Google Maps"
@@ -125,6 +138,7 @@ class Contact extends Component {
                     href={addressSection.location_map_link}
                     theme={theme}
                   />
+                  
                 </div>
               </div>
             </div>

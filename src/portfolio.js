@@ -830,33 +830,100 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+      "I’m always open to discussing new projects, creative ideas, or collaboration opportunities. If you have an idea, a business requirement, or need help developing a web solution, feel free to reach out. I enjoy connecting with people, understanding their goals, and working together to build innovative and impactful digital experiences. Let’s connect and create something great together.",
+    link: "https://kashifkazmi.great-site.net/contact-us",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "18/3 Nafees road, Jamia Nagar, New Delhi 110025",
+    locality: "Delhi",
+    country: "India",
+    region: "Jamia Nagar, ",
+    postalCode: "110025",
+    streetAddress: "New Delhi ",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/Bfj1sm4Kay4iwrfY7",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Mobile No.",
+    subtitle: "+91 8395000092",
+  },
+   emailSection: {
+    title: "Email",
+    subtitle: "Kazmikashif007@gmail.com",
   },
 };
-
+const techStack = {
+  // Skill Part
+  display: true, // Set it to true to view skillbars of language
+  title: "Proficiency",
+  experience: [
+    {
+      Stack: "HTML", // Insert stack or technology or language you have experience in
+      progressPercentage: "90%", // Insert relative proficiency in percentage
+    },
+    {
+      Stack: "CSS/SASS",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "JavaScript/TypeScript",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "PHP",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Python",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "Shell",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "Perl",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: "Ruby",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: "C",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Rust",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Java",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Lua",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "GO",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "CPP",
+      progressPercentage: "50%",
+    },
+  ],
+};
 export {
   settings,
   seo,
   greeting,
   socialMediaLinks,
   skills,
+  techStack,
   competitiveSites,
   degrees,
   certifications,
