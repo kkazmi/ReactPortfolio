@@ -1,7 +1,8 @@
 import React from "react";
-import "./Skills.css";
-import SkillSection from "./SkillSection";
 import { Fade } from "react-reveal";
+import TechStack from "../../components/techStack/TechStack";
+import SkillSection from "./SkillSection";
+import "./Skills.css";
 
 export default function Skills(props) {
   const theme = props.theme;
@@ -15,6 +16,7 @@ export default function Skills(props) {
         </Fade>
       </div>
       <SkillSection theme={theme} />
+       <TechStack theme={theme} />
     </div>
   );
 }

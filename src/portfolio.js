@@ -849,14 +849,81 @@ const contactPageData = {
     title: "Mobile No.",
     subtitle: "+91 8395000092",
   },
+   emailSection: {
+    title: "Email",
+    subtitle: "Kazmikashif007@gmail.com",
+  },
 };
-
+const techStack = {
+  // Skill Part
+  display: true, // Set it to true to view skillbars of language
+  title: "Proficiency",
+  experience: [
+    {
+      Stack: "HTML", // Insert stack or technology or language you have experience in
+      progressPercentage: "90%", // Insert relative proficiency in percentage
+    },
+    {
+      Stack: "CSS/SASS",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "JavaScript/TypeScript",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "PHP",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Python",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "Shell",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "Perl",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: "Ruby",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: "C",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Rust",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Java",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Lua",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "GO",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "CPP",
+      progressPercentage: "50%",
+    },
+  ],
+};
 export {
   settings,
   seo,
   greeting,
   socialMediaLinks,
   skills,
+  techStack,
   competitiveSites,
   degrees,
   certifications,
