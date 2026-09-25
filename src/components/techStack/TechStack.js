@@ -14,6 +14,9 @@ const TechStack = (props) => {
               <h1 className="techstack-heading" style={{ color: theme.text }}>
                 {techStack.title}
               </h1>
+            {techStack.descriptions.map((description, index) => (
+              <p key={index}>{description}</p>
+            ))}
               {techStack.experience.map((exp, i) => {
                 const progressStyle = {
                   width: exp.progressPercentage,

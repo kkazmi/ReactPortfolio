@@ -855,9 +855,14 @@ const contactPageData = {
   },
 };
 const techStack = {
-  // Skill Part
-  display: true, // Set it to true to view skillbars of language
+  display: true, 
   title: "Proficiency",
+  descriptions: [
+      "💻 Oversaw the complete software development lifecycle for 4 projects, ensuring 100% on-time delivery.",
+      "🐞 Identified and resolved bugs in existing websites while implementing enhancements to improve functionality, performance, and speed.",
+      "📱 Designed and developed user-friendly, responsive websites optimized for desktop, tablet, and mobile devices.",
+      "🌐 Managed FTP file operations, GoDaddy hosting maintenance, domain management, and email account setup and hosting."
+    ],
   experience: [
     {
       Stack: "HTML", // Insert stack or technology or language you have experience in
@@ -879,43 +884,141 @@ const techStack = {
       Stack: "Python",
       progressPercentage: "80%",
     },
-    {
-      Stack: "Shell",
-      progressPercentage: "80%",
-    },
-    {
-      Stack: "Perl",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "Ruby",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "C",
-      progressPercentage: "60%",
-    },
-    {
-      Stack: "Rust",
-      progressPercentage: "60%",
-    },
-    {
-      Stack: "Java",
-      progressPercentage: "60%",
-    },
-    {
-      Stack: "Lua",
-      progressPercentage: "60%",
-    },
-    {
-      Stack: "GO",
-      progressPercentage: "60%",
-    },
-    {
-      Stack: "CPP",
-      progressPercentage: "50%",
-    },
   ],
+};
+
+const techStacks = {
+  display: true,
+
+  categories: [
+    {
+      title: "Technical Skills",
+      descriptions: [
+        "💻 Web Development: HTML, CSS, JavaScript, PHP, ASP.NET",
+        "⚛️ Frameworks & Libraries: React, Angular, Bootstrap, Tailwind CSS",
+        "🗄️ Database: MySQL, SQL Server",
+        "🔧 Tools & Technologies: Git, GitHub, REST APIs, FTP, GoDaddy Hosting"
+      ],
+       experience: [
+        {
+          Stack: "HTML", // Insert stack or technology or language you have experience in
+          progressPercentage: "90%", // Insert relative proficiency in percentage
+        },
+        {
+          Stack: "CSS/SASS",
+          progressPercentage: "80%",
+        },
+        {
+          Stack: "JavaScript/TypeScript",
+          progressPercentage: "80%",
+        },
+        {
+          Stack: "PHP",
+          progressPercentage: "60%",
+        },
+        {
+          Stack: "Python",
+          progressPercentage: "80%",
+        },
+      ],
+    },
+
+    {
+      title: "Designing Skills",
+      descriptions: [
+        "🎨 UI/UX Design and User-Centered Design",
+        "📱 Responsive Web Design for Desktop, Tablet, and Mobile",
+        "🖥️ Website Layout, Wireframing, and Prototyping",
+        "✨ Visual Design, Typography, Color Theory, and Design Systems"
+      ],
+       experience: [
+        {
+          Stack: "HTML", // Insert stack or technology or language you have experience in
+          progressPercentage: "90%", // Insert relative proficiency in percentage
+        },
+        {
+          Stack: "CSS/SASS",
+          progressPercentage: "80%",
+        },
+        {
+          Stack: "JavaScript/TypeScript",
+          progressPercentage: "80%",
+        },
+        {
+          Stack: "PHP",
+          progressPercentage: "60%",
+        },
+        {
+          Stack: "Python",
+          progressPercentage: "80%",
+        },
+      ],
+    },
+
+    {
+      title: "Soft Skills",
+      descriptions: [
+        "🤝 Team Collaboration and Cross-Functional Communication",
+        "🧩 Problem Solving and Analytical Thinking",
+        "⏱️ Time Management and Project Coordination",
+        "💬 Communication, Adaptability, and Continuous Learning"
+      ],
+       experience: [
+        {
+          Stack: "HTML", // Insert stack or technology or language you have experience in
+          progressPercentage: "90%", // Insert relative proficiency in percentage
+        },
+        {
+          Stack: "CSS/SASS",
+          progressPercentage: "80%",
+        },
+        {
+          Stack: "JavaScript/TypeScript",
+          progressPercentage: "80%",
+        },
+        {
+          Stack: "PHP",
+          progressPercentage: "60%",
+        },
+        {
+          Stack: "Python",
+          progressPercentage: "80%",
+        },
+      ],
+    },
+
+    {
+      title: "Co-curricular Activities",
+      descriptions: [
+        "🏆 Participated in technical events, workshops, meetups, and hackathons",
+        "🎤 Contributed to team-based technical and creative activities",
+        "📚 Continuously explored emerging technologies and industry trends",
+        "🌱 Participated in activities focused on professional and personal development"
+      ],
+       experience: [
+        {
+          Stack: "HTML", // Insert stack or technology or language you have experience in
+          progressPercentage: "90%", // Insert relative proficiency in percentage
+        },
+        {
+          Stack: "CSS/SASS",
+          progressPercentage: "80%",
+        },
+        {
+          Stack: "JavaScript/TypeScript",
+          progressPercentage: "80%",
+        },
+        {
+          Stack: "PHP",
+          progressPercentage: "60%",
+        },
+        {
+          Stack: "Python",
+          progressPercentage: "80%",
+        },
+      ],
+    }
+  ]
 };
 export {
   settings,
@@ -924,6 +1027,7 @@ export {
   socialMediaLinks,
   skills,
   techStack,
+  techStacks,
   competitiveSites,
   degrees,
   certifications,
